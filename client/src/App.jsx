@@ -1,7 +1,7 @@
 import './App.css';
 import { Outlet } from 'react-router-dom';
 
-import { ApolloClient, inMemoryCache, ApolloProvider } from '@apollo/clent';
+import { ApolloClient, inMemoryCache, ApolloProvider } from '@apollo/client';
 
 import Navbar from './components/Navbar';
 
