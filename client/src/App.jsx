@@ -1,13 +1,13 @@
 import './App.css';
 import { Outlet } from 'react-router-dom';
 
-import { ApolloClient, inMemoryCache, ApolloProvider } from '@apollo/client';
+import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 
 import Navbar from './components/Navbar';
 
 const client = new ApolloClient({
   uri: '/graphql',
-  cache: new inMemoryCache(),
+  cache: new InMemoryCache(),
 });
 
 function App() {
